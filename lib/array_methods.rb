@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
     
   }
   if found == FALSE do
-    return not_found
+    return "Not found"
   end
 end
 
