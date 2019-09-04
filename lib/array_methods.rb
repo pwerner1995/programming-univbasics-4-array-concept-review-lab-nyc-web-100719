@@ -1,9 +1,14 @@
 def find_element_index(array, value_to_find)
+  found=0 
   array.length.times { |index|
     if array[index] == value_to_find
-      return index
+      found = 1 
+      eturn index
     end
   }
+  if found == 0 do 
+    return nil 
+  end
 end
 
 def find_max_value(array)
